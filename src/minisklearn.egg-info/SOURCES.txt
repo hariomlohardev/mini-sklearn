@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/minisklearn/__init__.py
+src/minisklearn/cluster.py
+src/minisklearn/ensemble.py
+src/minisklearn/linear_model.py
+src/minisklearn/metrics.py
+src/minisklearn/svm.py
+src/minisklearn/tree.py
+src/minisklearn/utils.py
+src/minisklearn.egg-info/PKG-INFO
+src/minisklearn.egg-info/SOURCES.txt
+src/minisklearn.egg-info/dependency_links.txt
+src/minisklearn.egg-info/top_level.txt

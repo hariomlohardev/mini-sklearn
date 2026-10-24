@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: minisklearn
+Version: 0.1.0
+Summary: Classical ML algorithms built from scratch (learning project)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# minisklearn
+
+### What is this BTW
+
+This is an mini version of sklearn( `scikit-learn` ).
+Build only using python inbuld libraries and nothings else.
+
+Its an part of my AI / AGI resercher journey chech that on [hariomlohardev.github.io](https://hariomlohardev.github.io/)
+
+
+
