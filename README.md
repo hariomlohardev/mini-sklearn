@@ -77,8 +77,24 @@ f1  = f1_score(y_true = y_test, y_pred = y_pred)
 confusion  = confusion_matrix(y_true = y_test, y_pred = y_pred)
 ```
 
+## Usage
+```python
+from minisklearn.linear_model import LogisticRegression
+from minisklearn.metrics import accuracy_score, f1_score
 
+# toy data: two blobs, labels 0 and 1
+X_train = [[0.1], [0.2], [0.3], [2.1], [2.2], [2.3]]
+y_train = [0, 0, 0, 1, 1, 1]
+X_test = [[0.25], [2.0]]
+y_test = [0, 1]
 
+model = LogisticRegression(lr=0.1, epochs=500)
+model.fit(X_train, y_train)
+preds = model.predict(X_test)
+
+print("accuracy:", accuracy_score(y_test, preds))
+print("f1:", f1_score(y_test, preds))
+```
 
 ## Model list 
 
