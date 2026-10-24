@@ -49,7 +49,7 @@ y_test = ... # true labels
 model = LinearRegression() # Model linear regression
 
 # fit
-model.fit(X_train , y_test) # fiting the model on data
+model.fit(X_train , y_train) # fiting the model on data
 
 # predict
 y_pred = model.predict(X_test)
